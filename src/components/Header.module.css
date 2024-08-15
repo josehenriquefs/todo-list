@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    width: 100vw;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--gray-700);
+    padding: 1rem;
+}
+
+.logo {
+    width: 8rem;
+    height: 2.625rem;
+}

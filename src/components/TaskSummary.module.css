@@ -1,0 +1,45 @@
+.taskSummary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.created {
+  display: flex;
+  flex-direction: row;
+  font-size: var(--sm);
+  gap: 0.5rem;
+}
+
+.createdText {
+  color: var(--blue-500);
+}
+
+.createdNumber {
+  color: var(--gray-100);
+  background: var(--gray-400);
+  border-radius: 2rem;
+  padding: 0.125rem 0.5rem;
+  font-size: var(--xs);
+}
+
+.completed {
+  display: flex;
+  flex-direction: row;
+  font-size: var(--sm);
+  gap: 0.5rem;
+}
+
+.completedText {
+  color: var(--purple-500);
+}
+
+.completedNumber {
+  color: var(--gray-100);
+  background: var(--gray-400);
+  border-radius: 2rem;
+  padding: 0.125rem 0.5rem;
+  font-size: var(--xs);
+}

@@ -1,0 +1,26 @@
+.checked {
+  display: flex;
+  color: var(--gray-100);
+  background: var(--purple-800);
+  border-radius: 100%;
+  line-height: var(--line-height);
+}
+
+.checked:hover {
+  cursor: pointer;
+  color: var(--gray-100);
+  background: var(--purple-500);
+  border-radius: 100%;
+  line-height: var(--line-height);
+}
+.unchecked {
+  display: flex;
+  color: var(--blue-500);
+  line-height: var(--line-height);
+}
+
+.unchecked:hover {
+  cursor: pointer;
+  color: var(--blue-800);
+  line-height: var(--line-height);
+}
