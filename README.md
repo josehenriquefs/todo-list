@@ -1,50 +1,31 @@
-# React + TypeScript + Vite
+# ToDo List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto criado para o desafio introdutório da Rocketseat do curso de ReactJS
 
-Currently, two official plugins are available:
+Foi desenvolvido utilizando ReactJS + Typescript + Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Sobre o desafio
 
-## Expanding the ESLint configuration
+Criar uma "Lista de Afazeres(ToDo List)" aplicando os conceitos ensinados no módulo introdutório do curso de ReactJS.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Objetivos do desafio
 
-- Configure the top-level `parserOptions` property like this:
+-  [x] Adicionar uma nova tarefa
+-  [x] Marcar e desmarcar uma tarefa como concluída
+-  [x] Remover uma tarefa da listagem
+-  [x] Mostrar o progresso de conclusão das tarefas
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Conceitos revisados
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- Estados
+- Imutabilidade do estado
+- Listas e chaves no ReactJS
+- Propriedades
+- Componentização
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+
+# Layout do projeto
+
+[ToDo List](https://www.figma.com/file/0n0zDN7zbzhRbaEO74Xesx/ToDo-List/duplicate)
+
